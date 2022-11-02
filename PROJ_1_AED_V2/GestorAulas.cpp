@@ -8,11 +8,12 @@
 
 using namespace std;
 
-
-void lerAulas(const string& filename) {
+Slot procurarAula(){
     Slot aula;
-
-
+    return aula;
+}
+vector<Slot> lerAulas(const string& filename) {
+    Slot aula;
     string ClassCode;
     string Uccode;
     string Weekday;
@@ -48,8 +49,10 @@ void lerAulas(const string& filename) {
         cout << "ERROR: File Not Open" << '\n';
     }
     input.close();
+    return aulas;
 }
 
+/*------------teste---------*/
 int main() {
     lerAulas("../classes.csv");
     return 0;

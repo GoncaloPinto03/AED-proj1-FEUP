@@ -16,6 +16,6 @@ add_executable(PROJ_1_AED
         Pedido.h
         Slot.cpp
         Slot.h
-        LerEstudantes.cpp
+        GestorEstudante.cpp
         UCTurma.cpp
-        UCTurma.h LerAulas.cpp)
+        UCTurma.h GestorAulas.cpp)

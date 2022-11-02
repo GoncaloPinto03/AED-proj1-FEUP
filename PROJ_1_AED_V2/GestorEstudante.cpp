@@ -3,13 +3,19 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <algorithm>
 #include "Estudante.h"
 
 
 using namespace std;
 
 
-void lerEstudantes(const string& filename) {
+Estudante procurarEstudante(string estudanteprocura ,vector<Estudante> estudantes){
+    Estudante estudante;
+    /* sort(estudantes.begin(),estudantes.end()); sort e binary search ? */
+    return estudante;
+}
+vector<Estudante> lerEstudantes(const string& filename) {
   Estudante estudante;
 
   string StudentCode;
@@ -41,7 +47,10 @@ void lerEstudantes(const string& filename) {
       cout << "ERROR: File Not Open" << '\n';
   }
     input.close();
+  return estudantes;
 }
+
+
 /*
 int main() {
   lerEstudantes("../students_classes.csv");

@@ -1,4 +1,4 @@
-/snap/clion/209/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/209/bin/ninja/linux/ninja -G Ninja -S /home/gpinto03/Downloads/PROJ_1_AED_V2 -B /home/gpinto03/Downloads/PROJ_1_AED_V2/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\migue\Desktop\AED\trabalho novo repositorio\Projeto1AED\PROJ_1_AED_V2" -B "C:\Users\migue\Desktop\AED\trabalho novo repositorio\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/gpinto03/Downloads/PROJ_1_AED_V2/cmake-build-debug
+-- Build files have been written to: C:/Users/migue/Desktop/AED/trabalho novo repositorio/Projeto1AED/PROJ_1_AED_V2/cmake-build-debug
