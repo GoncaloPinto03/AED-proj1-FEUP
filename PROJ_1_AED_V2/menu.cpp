@@ -12,30 +12,31 @@ using namespace std;
     cin >> choice;
     switch (choice) {
         case 0:  /*Ver Horário de um estudante */
-
+        {
             cout << "Insira o numero de estudante \n";
             cin>>nestudante;
-            /* ler estudantes
+            /* ler estudantes*/
             break;
+         }
         case 1:  /*Ver Horario de uma turma */
         {   string turma;
-            cout<<"Insira a turma de que quer ver horario";
+            cout<<"Insira a turma de que quer ver horario \n";
             cin>>nturma;
             /* ler aulas ,listar todas slots que apareçam se forem igual á turma */
             break;
         }
         case 2:/*alterar turma de um estudante*/
-        {   cout << "Diga-me numero de estudante\n";
+        {   cout << "Insira o numero de estudante\n";
             cin >> nestudante;
-            cout << "Diga-me que UC pretende alterar hórario\n";
+            cout << "Insira a UC de que pretende alterar a turma\n";
             cin >> nuc;
-            cout << "Diga-me para que turma quer mudar \n";
+            cout << "Insira a turma para a qual quer mudar \n";
             cin >> nturma;
 
             break;
         }
         case 3:  /*Alterar Horario de turma a uma UC*/
-            cout << "Done by Goncalo Pinto ,Miguel Figueiredo and Miguel Santos\n";
+            cout << "Done by Goncalo Pinto, Miguel Figueiredo and Miguel Santos\n";
             break;
         case 4:  /*Encerrar aplicaçao*/
             cout << "Ok, bye!\n";
@@ -43,12 +44,11 @@ using namespace std;
         default:
         break;
     }
-    } while (choice != 5);
+    } while (choice != 4);
 }
 
 /*
 int main() {
     Menu();
 }
-
 */
