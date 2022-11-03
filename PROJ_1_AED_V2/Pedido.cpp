@@ -9,7 +9,7 @@ Pedido::Pedido(){
     ClassCodeInicio = "";
     ClassCodeFim = "";
 }
-Pedido::Pedido(string UC,string ClassCodeInicio,string ClassCodeFim){
+Pedido::Pedido(string UcCode,string ClassCodeInicio,string ClassCodeFim){
     UcCode = UcCode;
     ClassCodeInicio = ClassCodeInicio;
     ClassCodeFim = ClassCodeFim;
@@ -18,3 +18,4 @@ Pedido::Pedido(string UC,string ClassCodeInicio,string ClassCodeFim){
 string Pedido::get_UcCode() const{return UcCode;}
 string Pedido::get_ClassCodeInicio() const{return ClassCodeInicio;}
 string Pedido::get_ClassCodeFim() const{return ClassCodeFim;}
+

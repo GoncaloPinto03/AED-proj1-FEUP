@@ -8,18 +8,18 @@ using namespace std;
 
 class Slot {
     string ClassCode;
-    string Uccode;
+    string UcCode;
     string Weekday;
     string StartHour;
     string Duration;
     string Type;
 public:
     Slot();
-    Slot(string ClassCode, string Uccode, string Weekday, string StartHour, string Duration, string Type);
+    Slot(string ClassCode, string UcCode, string Weekday, string StartHour, string Duration, string Type);
     string get_ClassCode() const;
     void set_ClassCode(string ClassCode2);
     string get_UcCode() const;
-    void set_UcCode(string Uccode2);
+    void set_UcCode(string UcCode2);
     string get_Weekday() const;
     void set_Weekday(string Weekday2);
     string get_StarHour() const;

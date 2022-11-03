@@ -8,7 +8,7 @@ HorarioUC::HorarioUC() {
     slot;
 
 }
-HorarioUC::HorarioUC(string CodigoUC,string CodigoTurma,list<Slot>slot) {
+HorarioUC::HorarioUC(string UcCode,string ClassCode,list<Slot>slot) {
     UcCode = UcCode;
     ClassCode = ClassCode;
     slot = slot;

@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PROJ_1_AED",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PROJ_1_AED::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PROJ_1_AED-Debug-e9bc12d362c80d548688.json",
+					"name" : "PROJ_1_AED",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gpinto03/FEUP/FEUP/2\u00ba Ano/1\u00ba Semestre/Algoritmos e Estruturas de Dados/projeto_1/PROJ_1_AED/Projeto1AED/PROJ_1_AED_V2/cmake-build-debug",
+		"source" : "/home/gpinto03/FEUP/FEUP/2\u00ba Ano/1\u00ba Semestre/Algoritmos e Estruturas de Dados/projeto_1/PROJ_1_AED/Projeto1AED/PROJ_1_AED_V2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

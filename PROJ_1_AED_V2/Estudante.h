@@ -10,10 +10,10 @@ class Estudante {
     string StudentCode;
     string StudentName;
     string ClassCode;
-    string Uccode;
+    string UcCode;
 public:
     Estudante();
-    Estudante(string StudentCode, string StudentName, string Uccode, string ClassCode);
+    Estudante(string StudentCode, string StudentName, string UcCode, string ClassCode);
     string get_StudentCode() const;
     void set_StudentCode(string StudentCode2);
     string get_StudentName() const;

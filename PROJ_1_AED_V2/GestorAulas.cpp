@@ -15,7 +15,7 @@ Slot procurarAula(){
 vector<Slot> lerAulas(const string& filename) {
     Slot aula;
     string ClassCode;
-    string Uccode;
+    string UcCode;
     string Weekday;
     string StartHour;
     string Duration;
@@ -29,14 +29,14 @@ vector<Slot> lerAulas(const string& filename) {
         getline(input, dummy);
         while(input.good()) {
             getline(input, ClassCode, ',');
-            getline(input, Uccode, ',');
+            getline(input, UcCode, ',');
             getline(input, Weekday, ',');
             getline(input, StartHour, ',');
             getline(input, Duration, ',');
             getline(input, Type, '\n');
 
             aula.set_ClassCode(ClassCode);
-            aula.set_UcCode(Uccode);
+            aula.set_UcCode(UcCode);
             aula.set_Weekday(Weekday);
             aula.set_StartHour(StartHour);
             aula.set_Duration(Duration);
@@ -53,10 +53,13 @@ vector<Slot> lerAulas(const string& filename) {
 }
 
 /*------------teste---------*/
+/*
 int main() {
     lerAulas("../classes.csv");
     return 0;
 }
+*/
+
 //
 // Created by gpinto03 on 01-11-2022.
 //

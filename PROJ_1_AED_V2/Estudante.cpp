@@ -5,13 +5,13 @@ using namespace std;
 Estudante::Estudante() {
     StudentCode = "";
     StudentName = "";
-    Uccode = "";
+    UcCode = "";
     ClassCode = "";
 }
-Estudante::Estudante(string StudentCode, string StudentName, string Uccode, string ClassCode){
+Estudante::Estudante(string StudentCode, string StudentName, string UcCode, string ClassCode){
     StudentCode = StudentCode;
     StudentName = StudentName;
-    Uccode = Uccode;
+    UcCode = UcCode;
     ClassCode = ClassCode;
 }
 
@@ -30,19 +30,19 @@ void Estudante::set_StudentName(string StudentName2) {
 }
 
 string Estudante::get_UcCode() const {
-    return Uccode;
+    return UcCode;
 }
 
-void Estudante::set_UcCode(string Uccode2) {
-    Uccode = Uccode2;
+void Estudante::set_UcCode(string UcCode2) {
+    UcCode = UcCode2;
 }
 
 string Estudante::get_ClassCode() const {
     return ClassCode;
 }
 
-void Estudante::set_ClassCode(string Classcode2) {
-    ClassCode = Classcode2;
+void Estudante::set_ClassCode(string ClassCode2) {
+    ClassCode = ClassCode2;
 }
 
 

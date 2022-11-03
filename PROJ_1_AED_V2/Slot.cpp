@@ -4,16 +4,16 @@ using namespace std;
 
 Slot::Slot(){
     ClassCode = "";
-    Uccode = "";
+    UcCode = "";
     Weekday = "";
     StartHour = "";
     Duration = "";
     Type = "";
 }
 
-Slot::Slot(string ClassCode, string Uccode, string Weekday, string StartHour, string Duration, string Type) {
+Slot::Slot(string ClassCode, string UcCode, string Weekday, string StartHour, string Duration, string Type) {
     ClassCode = ClassCode;
-    Uccode = Uccode;
+    UcCode = UcCode;
     Weekday = Weekday;
     StartHour = StartHour;
     Duration = Duration;
@@ -28,11 +28,11 @@ void Slot::set_ClassCode(string ClassCode2) {
 }
 
 string Slot::get_UcCode() const {
-    return Uccode;
+    return UcCode;
 }
 
-void Slot::set_UcCode(string Uccode2) {
-    Uccode = Uccode2;
+void Slot::set_UcCode(string UcCode2) {
+    UcCode = UcCode2;
 }
 
 string Slot::get_Weekday() const {

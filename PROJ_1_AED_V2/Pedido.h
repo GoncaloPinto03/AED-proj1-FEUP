@@ -14,8 +14,8 @@ public:
     string get_UcCode()const;
     string get_ClassCodeInicio()const;
     string get_ClassCodeFim()const;
-    void setCodigoUCinit(string CodigoUC);
-    void setCodigoUCfim(string CodigoUC);
+    //void setCodigoUCinit(string CodigoUC);
+    //void setCodigoUCfim(string CodigoUC);
 
 };
 

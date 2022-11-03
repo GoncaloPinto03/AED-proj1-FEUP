@@ -9,13 +9,14 @@
 
 using namespace std;
 
-
+/*
 Estudante procurarEstudante(string estudanteprocura ,vector<Estudante> estudantes){
     Estudante estudante;
     /* sort(estudantes.begin(),estudantes.end()); sort e binary search ? */
-    return estudante;
-}
-vector<Estudante> lerEstudantes(const string& filename) {
+//    return estudante;
+//}
+
+void lerEstudantes(const string& filename) {
   Estudante estudante;
 
   string StudentCode;
@@ -47,7 +48,7 @@ vector<Estudante> lerEstudantes(const string& filename) {
       cout << "ERROR: File Not Open" << '\n';
   }
     input.close();
-  return estudantes;
+  //return estudantes;
 }
 
 
