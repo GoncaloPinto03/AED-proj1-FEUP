@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string>
-#include <Estudante.h>
+#include "Estudante.h"
 
 using namespace std;
 
  void Menu() {
     int choice;
-    string nestudante,nturma,nuc;
+    string estudante,turma,uc;
     do {
     cout << "\n0. Ver horário de estudante \n1. Ver hórario de Turma \n2. Alterar Turma de estudante\n3. Alterar hórario de turma\n4. Exit\n\n";
     cin >> choice;
@@ -14,24 +14,23 @@ using namespace std;
         case 0:  /*Ver Horário de um estudante */
         {
             cout << "Insira o numero de estudante \n";
-            cin>>nestudante;
-            /* ler estudantes*/
+            cin>>estudante;
             break;
          }
         case 1:  /*Ver Horario de uma turma */
         {   string turma;
             cout<<"Insira a turma de que quer ver horario \n";
-            cin>>nturma;
+            cin>>turma;
             /* ler aulas ,listar todas slots que apareçam se forem igual á turma */
             break;
         }
         case 2:/*alterar turma de um estudante*/
         {   cout << "Insira o numero de estudante\n";
-            cin >> nestudante;
+            cin >> estudante;
             cout << "Insira a UC de que pretende alterar a turma\n";
-            cin >> nuc;
+            cin >> uc;
             cout << "Insira a turma para a qual quer mudar \n";
-            cin >> nturma;
+            cin >> turma;
 
             break;
         }

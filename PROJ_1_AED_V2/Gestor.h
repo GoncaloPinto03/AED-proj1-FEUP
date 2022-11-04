@@ -8,22 +8,28 @@
 #include <vector>
 #include <queue>
 #include "Estudante.h"
+#include "Slot.h"
 #include "HorarioUC.h"
 #include "Pedido.h"
 
 using namespace std;
 
-class Gestor {
-    set<Estudante> estudantes;
-    vector<HorarioUC> horario;
-    queue<Pedido> pedidos;
-public:
-    Gestor();
-    set<Estudante> get_estudantes() const;
-    vector<HorarioUC> get_horario() const;
-    queue<Pedido> get_pedidos() const;
-    
+struct EstudanteSlot{
+    string StudentCode;
+    string StudentName;
+    string ClassCode;
+    string UcCode;
+    int WeekDay;
+    string Type;
+    double Duration;
+};
 
+class Gestor {
+public:
+   vector<Slot> lerSlots();
+   vector<Estudante> lerEstudantes();
+   vector<EstudanteSlot> SlotsdeEstudante();
+   vector<EstudanteSlot> HorarioEstudante(string StudentCode);
     
 };
 
