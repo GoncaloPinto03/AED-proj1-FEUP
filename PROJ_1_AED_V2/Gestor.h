@@ -10,7 +10,7 @@
 #include "Estudante.h"
 #include "Slot.h"
 #include "HorarioUC.h"
-#include "Pedido.h"
+
 
 using namespace std;
 
@@ -28,7 +28,7 @@ class Gestor {
 public:
    vector<Slot> lerSlots();
    vector<Estudante> lerEstudantes();
-   vector<EstudanteSlot> SlotsdeEstudante();
+   vector<EstudanteSlot> HorarioTurma();
    vector<EstudanteSlot> HorarioEstudante(string StudentCode);
     
 };

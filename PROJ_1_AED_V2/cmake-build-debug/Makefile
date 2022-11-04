@@ -152,54 +152,6 @@ Estudante.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/Estudante.cpp.s
 .PHONY : Estudante.cpp.s
 
-GestorAulas.obj: GestorAulas.cpp.obj
-.PHONY : GestorAulas.obj
-
-# target to build an object file
-GestorAulas.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.obj
-.PHONY : GestorAulas.cpp.obj
-
-GestorAulas.i: GestorAulas.cpp.i
-.PHONY : GestorAulas.i
-
-# target to preprocess a source file
-GestorAulas.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.i
-.PHONY : GestorAulas.cpp.i
-
-GestorAulas.s: GestorAulas.cpp.s
-.PHONY : GestorAulas.s
-
-# target to generate assembly for a file
-GestorAulas.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.s
-.PHONY : GestorAulas.cpp.s
-
-GestorEstudante.obj: GestorEstudante.cpp.obj
-.PHONY : GestorEstudante.obj
-
-# target to build an object file
-GestorEstudante.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.obj
-.PHONY : GestorEstudante.cpp.obj
-
-GestorEstudante.i: GestorEstudante.cpp.i
-.PHONY : GestorEstudante.i
-
-# target to preprocess a source file
-GestorEstudante.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.i
-.PHONY : GestorEstudante.cpp.i
-
-GestorEstudante.s: GestorEstudante.cpp.s
-.PHONY : GestorEstudante.s
-
-# target to generate assembly for a file
-GestorEstudante.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.s
-.PHONY : GestorEstudante.cpp.s
-
 HorarioUC.obj: HorarioUC.cpp.obj
 .PHONY : HorarioUC.obj
 
@@ -223,30 +175,6 @@ HorarioUC.s: HorarioUC.cpp.s
 HorarioUC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/HorarioUC.cpp.s
 .PHONY : HorarioUC.cpp.s
-
-Pedido.obj: Pedido.cpp.obj
-.PHONY : Pedido.obj
-
-# target to build an object file
-Pedido.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.obj
-.PHONY : Pedido.cpp.obj
-
-Pedido.i: Pedido.cpp.i
-.PHONY : Pedido.i
-
-# target to preprocess a source file
-Pedido.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.i
-.PHONY : Pedido.cpp.i
-
-Pedido.s: Pedido.cpp.s
-.PHONY : Pedido.s
-
-# target to generate assembly for a file
-Pedido.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.s
-.PHONY : Pedido.cpp.s
 
 Slot.obj: Slot.cpp.obj
 .PHONY : Slot.obj
@@ -332,18 +260,9 @@ help:
 	@echo ... Estudante.obj
 	@echo ... Estudante.i
 	@echo ... Estudante.s
-	@echo ... GestorAulas.obj
-	@echo ... GestorAulas.i
-	@echo ... GestorAulas.s
-	@echo ... GestorEstudante.obj
-	@echo ... GestorEstudante.i
-	@echo ... GestorEstudante.s
 	@echo ... HorarioUC.obj
 	@echo ... HorarioUC.i
 	@echo ... HorarioUC.s
-	@echo ... Pedido.obj
-	@echo ... Pedido.i
-	@echo ... Pedido.s
 	@echo ... Slot.obj
 	@echo ... Slot.i
 	@echo ... Slot.s

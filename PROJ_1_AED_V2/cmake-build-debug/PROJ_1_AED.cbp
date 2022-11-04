@@ -93,22 +93,10 @@
 		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/Gestor.h">
 			<Option target="PROJ_1_AED"/>
 		</Unit>
-		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/GestorAulas.cpp">
-			<Option target="PROJ_1_AED"/>
-		</Unit>
-		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/GestorEstudante.cpp">
-			<Option target="PROJ_1_AED"/>
-		</Unit>
 		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/HorarioUC.cpp">
 			<Option target="PROJ_1_AED"/>
 		</Unit>
 		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/HorarioUC.h">
-			<Option target="PROJ_1_AED"/>
-		</Unit>
-		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/Pedido.cpp">
-			<Option target="PROJ_1_AED"/>
-		</Unit>
-		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/Pedido.h">
 			<Option target="PROJ_1_AED"/>
 		</Unit>
 		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/Slot.cpp">

@@ -7,7 +7,7 @@
 
 using namespace std;
 
-vector<Slot> lerSlots() {
+vector<Slot>Gestor::lerSlots() {
     string filename="classes.csv";
     Slot slot;
     string ClassCode;
@@ -48,7 +48,7 @@ vector<Slot> lerSlots() {
     return slots;
 }
 
-vector<Estudante> lerEstudantes() {
+vector<Estudante>Gestor::lerEstudantes() {
     Estudante estudante;
     string filename="students_classes.csv";
     string StudentCode;
@@ -88,11 +88,13 @@ vector<Estudante> lerEstudantes() {
  e tinha no 2ºStudentSchedule em vez de HorarioEstudante
  Assumo que 1 delas seja para o horario do estudante e outra para o horario da turma */
 
-vector<EstudanteSlot> HorarioTurma(){
+vector<EstudanteSlot>Gestor::HorarioTurma() {
     vector<EstudanteSlot> horarioturma;
+
     return horarioturma;
 }
-vector<EstudanteSlot> HorarioEstudante(string StudentCode){
+
+vector<EstudanteSlot>Gestor::HorarioEstudante(string StudentCode){
     vector<EstudanteSlot> horarioestudante;
     return horarioestudante;
 }

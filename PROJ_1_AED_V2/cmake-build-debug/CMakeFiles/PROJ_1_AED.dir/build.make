@@ -113,26 +113,11 @@ CMakeFiles/PROJ_1_AED.dir/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJ_1_AED.dir/menu.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\menu.cpp" -o CMakeFiles\PROJ_1_AED.dir\menu.cpp.s
 
-CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.obj: CMakeFiles/PROJ_1_AED.dir/flags.make
-CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.obj: CMakeFiles/PROJ_1_AED.dir/includes_CXX.rsp
-CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.obj: ../Pedido.cpp
-CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.obj: CMakeFiles/PROJ_1_AED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.obj -MF CMakeFiles\PROJ_1_AED.dir\Pedido.cpp.obj.d -o CMakeFiles\PROJ_1_AED.dir\Pedido.cpp.obj -c "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\Pedido.cpp"
-
-CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\Pedido.cpp" > CMakeFiles\PROJ_1_AED.dir\Pedido.cpp.i
-
-CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\Pedido.cpp" -o CMakeFiles\PROJ_1_AED.dir\Pedido.cpp.s
-
 CMakeFiles/PROJ_1_AED.dir/Slot.cpp.obj: CMakeFiles/PROJ_1_AED.dir/flags.make
 CMakeFiles/PROJ_1_AED.dir/Slot.cpp.obj: CMakeFiles/PROJ_1_AED.dir/includes_CXX.rsp
 CMakeFiles/PROJ_1_AED.dir/Slot.cpp.obj: ../Slot.cpp
 CMakeFiles/PROJ_1_AED.dir/Slot.cpp.obj: CMakeFiles/PROJ_1_AED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PROJ_1_AED.dir/Slot.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PROJ_1_AED.dir/Slot.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PROJ_1_AED.dir/Slot.cpp.obj -MF CMakeFiles\PROJ_1_AED.dir\Slot.cpp.obj.d -o CMakeFiles\PROJ_1_AED.dir\Slot.cpp.obj -c "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\Slot.cpp"
 
 CMakeFiles/PROJ_1_AED.dir/Slot.cpp.i: cmake_force
@@ -143,26 +128,11 @@ CMakeFiles/PROJ_1_AED.dir/Slot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJ_1_AED.dir/Slot.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\Slot.cpp" -o CMakeFiles\PROJ_1_AED.dir\Slot.cpp.s
 
-CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.obj: CMakeFiles/PROJ_1_AED.dir/flags.make
-CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.obj: CMakeFiles/PROJ_1_AED.dir/includes_CXX.rsp
-CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.obj: ../GestorEstudante.cpp
-CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.obj: CMakeFiles/PROJ_1_AED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.obj -MF CMakeFiles\PROJ_1_AED.dir\GestorEstudante.cpp.obj.d -o CMakeFiles\PROJ_1_AED.dir\GestorEstudante.cpp.obj -c "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\GestorEstudante.cpp"
-
-CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\GestorEstudante.cpp" > CMakeFiles\PROJ_1_AED.dir\GestorEstudante.cpp.i
-
-CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\GestorEstudante.cpp" -o CMakeFiles\PROJ_1_AED.dir\GestorEstudante.cpp.s
-
 CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj: CMakeFiles/PROJ_1_AED.dir/flags.make
 CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj: CMakeFiles/PROJ_1_AED.dir/includes_CXX.rsp
 CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj: ../UCTurma.cpp
 CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj: CMakeFiles/PROJ_1_AED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj -MF CMakeFiles\PROJ_1_AED.dir\UCTurma.cpp.obj.d -o CMakeFiles\PROJ_1_AED.dir\UCTurma.cpp.obj -c "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\UCTurma.cpp"
 
 CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.i: cmake_force
@@ -173,31 +143,13 @@ CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\UCTurma.cpp" -o CMakeFiles\PROJ_1_AED.dir\UCTurma.cpp.s
 
-CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.obj: CMakeFiles/PROJ_1_AED.dir/flags.make
-CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.obj: CMakeFiles/PROJ_1_AED.dir/includes_CXX.rsp
-CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.obj: ../GestorAulas.cpp
-CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.obj: CMakeFiles/PROJ_1_AED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.obj -MF CMakeFiles\PROJ_1_AED.dir\GestorAulas.cpp.obj.d -o CMakeFiles\PROJ_1_AED.dir\GestorAulas.cpp.obj -c "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\GestorAulas.cpp"
-
-CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\GestorAulas.cpp" > CMakeFiles\PROJ_1_AED.dir\GestorAulas.cpp.i
-
-CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\GestorAulas.cpp" -o CMakeFiles\PROJ_1_AED.dir\GestorAulas.cpp.s
-
 # Object files for target PROJ_1_AED
 PROJ_1_AED_OBJECTS = \
 "CMakeFiles/PROJ_1_AED.dir/Estudante.cpp.obj" \
 "CMakeFiles/PROJ_1_AED.dir/HorarioUC.cpp.obj" \
 "CMakeFiles/PROJ_1_AED.dir/menu.cpp.obj" \
-"CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.obj" \
 "CMakeFiles/PROJ_1_AED.dir/Slot.cpp.obj" \
-"CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.obj" \
-"CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj" \
-"CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.obj"
+"CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj"
 
 # External object files for target PROJ_1_AED
 PROJ_1_AED_EXTERNAL_OBJECTS =
@@ -205,16 +157,13 @@ PROJ_1_AED_EXTERNAL_OBJECTS =
 PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/Estudante.cpp.obj
 PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/HorarioUC.cpp.obj
 PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/menu.cpp.obj
-PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/Pedido.cpp.obj
 PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/Slot.cpp.obj
-PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/GestorEstudante.cpp.obj
 PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.obj
-PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/GestorAulas.cpp.obj
 PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/build.make
 PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/linklibs.rsp
 PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/objects1.rsp
 PROJ_1_AED.exe: CMakeFiles/PROJ_1_AED.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable PROJ_1_AED.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Miguel\Desktop\aed\Trabalho aed\Projeto1AED\PROJ_1_AED_V2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable PROJ_1_AED.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PROJ_1_AED.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

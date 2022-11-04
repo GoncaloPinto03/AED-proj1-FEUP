@@ -12,10 +12,7 @@ add_executable(PROJ_1_AED
         HorarioUC.cpp
         HorarioUC.h
         menu.cpp
-        Pedido.cpp
-        Pedido.h
         Slot.cpp
         Slot.h
-        GestorEstudante.cpp
         UCTurma.cpp
-        UCTurma.h GestorAulas.cpp)
+        UCTurma.h )
