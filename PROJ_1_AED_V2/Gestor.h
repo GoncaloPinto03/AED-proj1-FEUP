@@ -14,7 +14,7 @@
 
 using namespace std;
 
-struct EstudanteSlot{
+struct EstudanteTurma{
     string StudentCode;
     string StudentName;
     string ClassCode;
@@ -28,8 +28,8 @@ class Gestor {
 public:
    vector<Slot> lerSlots();
    vector<Estudante> lerEstudantes();
-   vector<EstudanteSlot> HorarioTurma();
-   vector<EstudanteSlot> HorarioEstudante(string StudentCode);
+   vector<EstudanteTurma> HorarioTurma();
+   vector<EstudanteTurma> HorarioEstudante(string StudentCode);
     
 };
 

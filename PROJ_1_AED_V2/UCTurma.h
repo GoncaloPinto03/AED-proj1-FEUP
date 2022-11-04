@@ -16,8 +16,7 @@ public:
     void set_UcCode(string UcCode2);
     string get_ClassCode() const;
     void set_ClassCode(string ClassCode2);
-    int get_ClassSize() const;
-    void set_ClassSize(int ClassSize2); 
+
 };
 
 

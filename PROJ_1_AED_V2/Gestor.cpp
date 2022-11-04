@@ -5,6 +5,7 @@
 #include "Estudante.h"
 #include "Slot.h"
 
+
 using namespace std;
 
 vector<Slot>Gestor::lerSlots() {
@@ -88,13 +89,29 @@ vector<Estudante>Gestor::lerEstudantes() {
  e tinha no 2ºStudentSchedule em vez de HorarioEstudante
  Assumo que 1 delas seja para o horario do estudante e outra para o horario da turma */
 
-vector<EstudanteSlot>Gestor::HorarioTurma() {
-    vector<EstudanteSlot> horarioturma;
+
+vector<EstudanteTurma>Gestor::HorarioTurma() {
+    vector<Estudante> estudantes=lerEstudantes();
+    vector<Slot> ucturmas= lerSlots();
+    vector<EstudanteTurma> horarioturma={};
+    for(int i=0;i<ucturmas.size();++i){
+        for(Estudante est:estudantes){
+            vector<string> esturma=est.get_ClassCode();/* perguntar get Class */
+            if(esturma[1]==ucturmas[i].get_ClassCode() && esturma[0]==ucturmas[i].get_UcCode()){
+                horarioturma.push_back({est.get_StudentCode(),est.get_StudentName(),ucturmas[i].get_UcCode(),ucturmas[i].get_Weekday(),ucturmas[i].get_Type(),ucturmas[i].get_Duration()});
+            }
+        }
+    }
 
     return horarioturma;
 }
 
-vector<EstudanteSlot>Gestor::HorarioEstudante(string StudentCode){
-    vector<EstudanteSlot> horarioestudante;
+vector<EstudanteTurma>Gestor::HorarioEstudante(string StudentCode){
+    vector<EstudanteTurma> horarioturma =HorarioTurma();
+    vector<EstudanteTurma> horarioestudante={};
+    for (int i=0;i<horarioestudante.size();++i){
+        if(horarioturma[i].StudentCode==StudentCode)
+            horarioestudante.push_back(EstudanteTurma[i]);
+    }
     return horarioestudante;
 }

@@ -5,7 +5,6 @@ using namespace std;
 UCTurma::UCTurma() {
     UcCode = "";
     ClassCode = "";
-    ClassSize = 0;
 }
 
 string UCTurma::get_UcCode() const {
@@ -22,13 +21,4 @@ string UCTurma::get_ClassCode() const {
 
 void UCTurma::set_ClassCode(string ClassCode2) {
     ClassCode = ClassCode2;
-}
-
-int UCTurma::get_ClassSize() const{
-    return ClassSize;
-}
-
-void UCTurma::set_ClassSize(int ClassSize2) {
-    ClassSize = ClassSize2;
-
 }
