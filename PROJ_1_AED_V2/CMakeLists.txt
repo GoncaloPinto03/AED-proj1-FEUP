@@ -9,9 +9,9 @@ add_executable(PROJ_1_AED
         Estudante.cpp
         Estudante.h
         Gestor.h
+        Gestor.cpp
         HorarioUC.cpp
         HorarioUC.h
-        menu.cpp
         Slot.cpp
         Slot.h
         UCTurma.cpp

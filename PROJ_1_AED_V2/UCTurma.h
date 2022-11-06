@@ -8,7 +8,7 @@ using namespace std;
 class UCTurma {
     string UcCode;
     string ClassCode;
-    int ClassSize;
+
 
 public:
     UCTurma();

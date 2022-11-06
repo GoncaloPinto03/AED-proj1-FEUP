@@ -152,6 +152,30 @@ Estudante.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/Estudante.cpp.s
 .PHONY : Estudante.cpp.s
 
+Gestor.obj: Gestor.cpp.obj
+.PHONY : Gestor.obj
+
+# target to build an object file
+Gestor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/Gestor.cpp.obj
+.PHONY : Gestor.cpp.obj
+
+Gestor.i: Gestor.cpp.i
+.PHONY : Gestor.i
+
+# target to preprocess a source file
+Gestor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/Gestor.cpp.i
+.PHONY : Gestor.cpp.i
+
+Gestor.s: Gestor.cpp.s
+.PHONY : Gestor.s
+
+# target to generate assembly for a file
+Gestor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/Gestor.cpp.s
+.PHONY : Gestor.cpp.s
+
 HorarioUC.obj: HorarioUC.cpp.obj
 .PHONY : HorarioUC.obj
 
@@ -224,30 +248,6 @@ UCTurma.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/UCTurma.cpp.s
 .PHONY : UCTurma.cpp.s
 
-menu.obj: menu.cpp.obj
-.PHONY : menu.obj
-
-# target to build an object file
-menu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/menu.cpp.obj
-.PHONY : menu.cpp.obj
-
-menu.i: menu.cpp.i
-.PHONY : menu.i
-
-# target to preprocess a source file
-menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/menu.cpp.i
-.PHONY : menu.cpp.i
-
-menu.s: menu.cpp.s
-.PHONY : menu.s
-
-# target to generate assembly for a file
-menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PROJ_1_AED.dir\build.make CMakeFiles/PROJ_1_AED.dir/menu.cpp.s
-.PHONY : menu.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -260,6 +260,9 @@ help:
 	@echo ... Estudante.obj
 	@echo ... Estudante.i
 	@echo ... Estudante.s
+	@echo ... Gestor.obj
+	@echo ... Gestor.i
+	@echo ... Gestor.s
 	@echo ... HorarioUC.obj
 	@echo ... HorarioUC.i
 	@echo ... HorarioUC.s
@@ -269,9 +272,6 @@ help:
 	@echo ... UCTurma.obj
 	@echo ... UCTurma.i
 	@echo ... UCTurma.s
-	@echo ... menu.obj
-	@echo ... menu.i
-	@echo ... menu.s
 .PHONY : help
 
 

@@ -4,9 +4,15 @@
 #include <fstream>
 #include "Estudante.h"
 #include "Slot.h"
+#include <iomanip>
 
 
 using namespace std;
+
+bool operator< (const EstudanteTurma &left, const EstudanteTurma &right)
+{
+    return left.ClassCode < right.ClassCode;
+}
 
 vector<Slot>Gestor::lerSlots() {
     string filename="classes.csv";
@@ -40,8 +46,7 @@ vector<Slot>Gestor::lerSlots() {
             slot.set_Type(Type);
             slots.push_back(slot);
         }
-        cout << "Numero Aulas no vector: " << '\n';
-        cout << slots.size() << '\n';
+
     } else {
         cout << "ERROR: File Not Open" << '\n';
     }
@@ -75,8 +80,7 @@ vector<Estudante>Gestor::lerEstudantes() {
             estudante.set_ClassCode(ClassCode);
             estudantes.push_back(estudante);
         }
-        cout << "Numero Estudantes no vector: " << '\n';
-        cout << estudantes.size() << '\n';
+
     } else {
         cout << "ERROR: File Not Open" << '\n';
     }
@@ -84,21 +88,15 @@ vector<Estudante>Gestor::lerEstudantes() {
     return estudantes;
 }
 
-/*Nao sei o que é suposto estes 2 serem mas a vossa amiga
-   tinha no 1ºStudentClass em vez de HorarioTurma
- e tinha no 2ºStudentSchedule em vez de HorarioEstudante
- Assumo que 1 delas seja para o horario do estudante e outra para o horario da turma */
-
-
-vector<EstudanteTurma>Gestor::HorarioTurma() {
+set<EstudanteTurma>Gestor::HorarioTurma() {
     vector<Estudante> estudantes=lerEstudantes();
     vector<Slot> ucturmas= lerSlots();
-    vector<EstudanteTurma> horarioturma={};
-    for(int i=0;i<ucturmas.size();++i){
+    set<EstudanteTurma> horarioturma={};
+    for(auto x: ucturmas){
         for(Estudante est:estudantes){
-            vector<string> esturma=est.get_ClassCode();/* perguntar get Class */
-            if(esturma[1]==ucturmas[i].get_ClassCode() && esturma[0]==ucturmas[i].get_UcCode()){
-                horarioturma.push_back({est.get_StudentCode(),est.get_StudentName(),ucturmas[i].get_UcCode(),ucturmas[i].get_Weekday(),ucturmas[i].get_Type(),ucturmas[i].get_Duration()});
+            if(est.get_ClassCode()==x.get_ClassCode() && est.get_UcCode()==x.get_UcCode()){
+                horarioturma.insert({est.get_StudentCode(),est.get_StudentName(),x.get_ClassCode(),x.get_UcCode(),
+                                     x.get_Weekday(), x.get_Type(),x.get_StarHour(),x.get_Duration()});
             }
         }
     }
@@ -106,12 +104,80 @@ vector<EstudanteTurma>Gestor::HorarioTurma() {
     return horarioturma;
 }
 
-vector<EstudanteTurma>Gestor::HorarioEstudante(string StudentCode){
-    vector<EstudanteTurma> horarioturma =HorarioTurma();
-    vector<EstudanteTurma> horarioestudante={};
-    for (int i=0;i<horarioestudante.size();++i){
-        if(horarioturma[i].StudentCode==StudentCode)
-            horarioestudante.push_back(EstudanteTurma[i]);
-    }
+set<EstudanteTurma>Gestor::HorarioEstudante(string StudentCode){
+    set<EstudanteTurma> horarioturma =HorarioTurma();
+    set<EstudanteTurma> horarioestudante={};
+    set<EstudanteTurma>::iterator itr;
+
+    for (itr = horarioturma.begin();itr != horarioturma.end(); ++itr){
+        if(!itr->StudentCode.compare(StudentCode)) {
+            horarioestudante.insert(*itr);
+        }}
     return horarioestudante;
 }
+void printhorarioturma(set<EstudanteTurma> horario,string classcode){
+    for ( auto& i:horario){
+        if(!+i.ClassCode.compare(classcode))
+        cout<<i.UcCode <<" "<< i.ClassCode <<" "<< i.WeekDay <<" "<< i.Type <<" Starts at:"<< i.StartHour <<"  Ends at:"<< setprecision(3)<<fixed<<std::to_string((float)std::stod(i.StartHour) + std::stod(i.Duration))<<"\n";
+    }
+}
+void printhorarioestudante(set<EstudanteTurma> horario,string studentcode){
+    for ( auto& i:horario){
+        if(!i.StudentCode.compare(studentcode))
+            cout<<i.UcCode <<" "<< i.ClassCode <<" "<< i.WeekDay <<" "<< i.Type <<" Starts at:"<< i.StartHour <<"  Ends at:"<< setprecision(3)<<fixed<<std::to_string(std::stod(i.StartHour) + std::stod(i.Duration))<<"\n";
+    }
+}
+int Menu() {
+    int choice;
+    string estudante,turma,uc;
+    do {
+        cout << "\n 0. Ver horario de estudante \n 1. Ver horario de Turma \n 2. Alterar Turma de estudante(nao implementado)\n 3. Creditos\n 4. Exit\n\n";
+        cin >> choice;
+        switch (choice) {
+            case 0:  /*Ver Horário de um estudante */
+            {
+                cout << "Insira o numero de estudante \n";
+                cin>>estudante;
+                Gestor gestor;
+                set<EstudanteTurma> horarioestudante =gestor.HorarioEstudante(estudante);
+                printhorarioestudante(horarioestudante,estudante);
+                break;
+            }
+            case 1:  /*Ver Horario de uma turma */
+            {   string turma;
+                Gestor gestor;
+                cout<<"Insira a turma de que quer ver horario \n";
+                cin>>turma;
+                printhorarioturma(gestor.HorarioTurma(),turma);
+                break;
+            }
+            case 2:
+            {   cout << "Insira o numero de estudante\n";
+                cin >> estudante;
+                cout << "Insira a UC de que pretende alterar a turma\n";
+                cin >> uc;
+                cout << "Insira a turma para a qual quer mudar \n";
+                cin >> turma;
+
+                break;
+            }
+            case 3:
+                cout << "Done by Goncalo Pinto, Miguel Figueiredo and Miguel Santos\n";
+                break;
+            case 4:
+                return 0;
+                break;
+            default:
+                return 0;
+                break;
+        }
+    } while (choice);
+}
+
+
+int main() {
+    Menu();
+}
+
+
+

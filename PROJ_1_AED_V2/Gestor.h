@@ -19,17 +19,18 @@ struct EstudanteTurma{
     string StudentName;
     string ClassCode;
     string UcCode;
-    int WeekDay;
+    string WeekDay;
     string Type;
-    double Duration;
+    string StartHour;
+    string Duration;
 };
 
 class Gestor {
 public:
    vector<Slot> lerSlots();
    vector<Estudante> lerEstudantes();
-   vector<EstudanteTurma> HorarioTurma();
-   vector<EstudanteTurma> HorarioEstudante(string StudentCode);
+   set<EstudanteTurma> HorarioTurma();
+   set<EstudanteTurma> HorarioEstudante(string StudentCode);
     
 };
 

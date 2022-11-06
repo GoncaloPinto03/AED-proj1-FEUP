@@ -90,6 +90,9 @@
 		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/Estudante.h">
 			<Option target="PROJ_1_AED"/>
 		</Unit>
+		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/Gestor.cpp">
+			<Option target="PROJ_1_AED"/>
+		</Unit>
 		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/Gestor.h">
 			<Option target="PROJ_1_AED"/>
 		</Unit>
@@ -109,9 +112,6 @@
 			<Option target="PROJ_1_AED"/>
 		</Unit>
 		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/UCTurma.h">
-			<Option target="PROJ_1_AED"/>
-		</Unit>
-		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/menu.cpp">
 			<Option target="PROJ_1_AED"/>
 		</Unit>
 		<Unit filename="C:/Users/Miguel/Desktop/aed/Trabalho aed/Projeto1AED/PROJ_1_AED_V2/CMakeLists.txt">
