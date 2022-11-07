@@ -321,7 +321,12 @@ CMakeFiles/PROJ_1_AED.dir/Gestor.cpp.obj: ../Gestor.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/quoted_string.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
-  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h
 
 CMakeFiles/PROJ_1_AED.dir/HorarioUC.cpp.obj: ../HorarioUC.cpp \
   ../HorarioUC.h \
@@ -804,6 +809,8 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include
 
 ../HorarioUC.cpp:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h:
+
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h:
@@ -1105,6 +1112,14 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/quoted_string.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/algorithmfwd.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uniform_int_dist.h:
 
 ../Slot.cpp:
 

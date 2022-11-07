@@ -5,13 +5,22 @@
 #include "Estudante.h"
 #include "Slot.h"
 #include <iomanip>
+#include <algorithm>
 
 
 using namespace std;
 
-bool operator< (const EstudanteTurma &left, const EstudanteTurma &right)
-{
-    return left.ClassCode < right.ClassCode;
+bool operator< (const EstudanteTurma &left, const EstudanteTurma &right) {
+    vector<pair<string,int>> intday={{"Monday",0},{"Twesday",1},{"Wednesday",2},{"Thursday",3},{"Friday",4},{"Saturday",5},{"Sunday",6}};
+    int l,r;
+    for(auto x :intday){
+        if (x.first.compare(left.WeekDay))l=x.second;
+        if (x.first.compare(right.WeekDay))r=x.second;
+    }
+    if(left.StudentCode.compare(right.StudentCode))
+     return 1;
+     else return l!=r || left.StartHour<right.StartHour;
+
 }
 
 vector<Slot>Gestor::lerSlots() {
@@ -118,7 +127,7 @@ set<EstudanteTurma>Gestor::HorarioEstudante(string StudentCode){
 void printhorarioturma(set<EstudanteTurma> horario,string classcode){
     for ( auto& i:horario){
         if(!+i.ClassCode.compare(classcode))
-        cout<<i.UcCode <<" "<< i.ClassCode <<" "<< i.WeekDay <<" "<< i.Type <<" Starts at:"<< i.StartHour <<"  Ends at:"<< setprecision(3)<<fixed<<std::to_string((float)std::stod(i.StartHour) + std::stod(i.Duration))<<"\n";
+        cout<<i.StudentCode<<i.UcCode <<" "<< i.ClassCode <<" "<< i.WeekDay <<" "<< i.Type <<" Starts at:"<< i.StartHour <<"  Ends at:"<<fixed<< setprecision(2)<<std::to_string(std::stod(i.StartHour) + std::stod(i.Duration))<<"\n";
     }
 }
 void printhorarioestudante(set<EstudanteTurma> horario,string studentcode){
@@ -134,7 +143,7 @@ int Menu() {
         cout << "\n 0. Ver horario de estudante \n 1. Ver horario de Turma \n 2. Alterar Turma de estudante(nao implementado)\n 3. Creditos\n 4. Exit\n\n";
         cin >> choice;
         switch (choice) {
-            case 0:  /*Ver Horário de um estudante */
+            case 0:
             {
                 cout << "Insira o numero de estudante \n";
                 cin>>estudante;
@@ -143,7 +152,7 @@ int Menu() {
                 printhorarioestudante(horarioestudante,estudante);
                 break;
             }
-            case 1:  /*Ver Horario de uma turma */
+            case 1:
             {   string turma;
                 Gestor gestor;
                 cout<<"Insira a turma de que quer ver horario \n";
@@ -166,10 +175,8 @@ int Menu() {
                 break;
             case 4:
                 return 0;
-                break;
             default:
                 return 0;
-                break;
         }
     } while (choice);
 }
